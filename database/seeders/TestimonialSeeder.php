@@ -23,7 +23,7 @@ class TestimonialSeeder extends Seeder
             [
                 'customer_name' => 'Ibu Ratna Dewi',
                 'location' => 'BSD City, Tangerang Selatan',
-                'content' => 'Rumah saya ada di gang yang lumayan sempit, tapi teknisi membawa selang panjang 60 meter jadi bisa sampai ke septic tank belakang. Harganya transparan sesuai kesepakatan di awal. Recommended!',
+                'content' => 'Rumah saya ada di gang yang lumayan sempit, tapi teknisi membawa selang panjang 60 meter jadi bisa sampai ke septic tank belakang. Pelayanannya sangat cepat dan profesional. Recommended!',
                 'rating' => 5,
                 'service_used' => 'Sedot WC Rumahan',
             ],

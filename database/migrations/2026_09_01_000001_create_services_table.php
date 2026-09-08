@@ -19,7 +19,6 @@ return new class extends Migration
             $table->longText('description');
             $table->string('icon')->default('truck');
             $table->string('image_path')->nullable();
-            $table->string('price_info')->default('Hubungi Kami');
             $table->json('features')->nullable();
             $table->integer('order')->default(0);
             $table->timestamps();

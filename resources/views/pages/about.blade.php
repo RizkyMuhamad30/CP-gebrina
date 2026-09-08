@@ -29,7 +29,7 @@
                     <strong>CV GEBRINA JAYA</strong> didirikan dengan komitmen murni untuk mengatasi permasalahan sanitasi masyarakat perkotaan Jabodetabek yang kian berkembang pesat. Berawal dari 2 unit armada truk sederhana, kini kami berkembang menjadi penyedia jasa spesialis dengan puluhan unit truk tangki vakum berkapasitas besar dan teknisi berpengalaman.
                 </p>
                 <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
-                    Kami memprioritaskan metode kerja yang higienis, ramah lingkungan, cepat tanggap, dan tanpa biaya tersembunyi. Seluruh limbah yang ditarik dibuang secara legal ke Tempat Pembuangan Limbah Resmi (IPLT) milik pemerintah daerah.
+                    Kami memprioritaskan metode kerja yang higienis, ramah lingkungan, cepat tanggap, dan profesional. Seluruh limbah yang ditarik dibuang secara legal ke Tempat Pembuangan Limbah Resmi (IPLT) milik pemerintah daerah.
                 </p>
 
                 <div class="grid grid-cols-2 gap-4 pt-2">
@@ -77,7 +77,7 @@
                 <ul class="space-y-2 text-slate-600 text-sm list-disc list-inside">
                     <li>Memberikan respon darurat 24 jam yang cepat dan tepat waktu ke lokasi pelanggan.</li>
                     <li>Menggunakan peralatan teknologis modern seperti mesin roto-cleaner & vakum high-pressure.</li>
-                    <li>Menjaga transparansi harga tanpa ada biaya tambahan terselubung.</li>
+                    <li>Memberikan pelayanan terbaik dengan garansi pengerjaan tuntas dan rapi.</li>
                     <li>Memastikan pembuangan limbah secara legal dan bertanggung jawab demi kelestarian lingkungan.</li>
                 </ul>
             </div>

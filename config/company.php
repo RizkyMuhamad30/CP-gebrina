@@ -52,9 +52,9 @@ return [
             'icon' => 'truck'
         ],
         [
-            'title' => 'Harga Transparan & Garansi',
-            'desc' => 'Biaya disepakati di awal tanpa biaya tersembunyi. Layanan dijamin tuntas dengan garansi pekerjaan.',
-            'icon' => 'currency'
+            'title' => 'Hasil Kerja Bergaransi',
+            'desc' => 'Pekerjaan dijamin tuntas sampai lancar kembali dengan garansi pengerjaan profesional.',
+            'icon' => 'shield'
         ],
         [
             'title' => 'Petugas Profesional & Ramah',

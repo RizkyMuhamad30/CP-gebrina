@@ -17,18 +17,11 @@
             <span class="text-amber-400 font-semibold">{{ $service->name }}</span>
         </nav>
 
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
-            <div>
-                <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">{{ $service->name }}</h1>
-                <p class="text-slate-300 text-sm sm:text-base mt-2 max-w-3xl">
-                    {{ $service->short_description }}
-                </p>
-            </div>
-            <div class="flex-shrink-0">
-                <span class="inline-block bg-amber-500 text-slate-950 font-extrabold px-4 py-2 rounded-xl text-sm shadow-lg">
-                    Estimasi Biaya: {{ $service->price_info }}
-                </span>
-            </div>
+        <div>
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">{{ $service->name }}</h1>
+            <p class="text-slate-300 text-sm sm:text-base mt-2 max-w-3xl">
+                {{ $service->short_description }}
+            </p>
         </div>
 
     </div>

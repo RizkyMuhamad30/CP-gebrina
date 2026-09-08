@@ -8,8 +8,7 @@ Website official company profile untuk **CV GEBRINA JAYA**, penyedia layanan pro
 
 - **Backend**: Laravel 11 (PHP 8.2+)
 - **Frontend**: Blade Templating + Tailwind CSS v4 + Alpine.js
-- **Database**: MySQL (`services`, `service_areas`, `gallery_items`, `testimonials`, `contact_messages`)
-- **Email**: Laravel Mail (`ContactMessageMail`) dengan HTML template profesional
+- **Database**: MySQL (`services`, `service_areas`, `gallery_items`, `testimonials`)
 - **SEO & Schema**: Meta Tags dinamis, Schema.org `LocalBusiness` JSON-LD, OpenGraph, `sitemap.xml`, `robots.txt`
 - **Asset Build**: Vite
 
@@ -20,7 +19,7 @@ Website official company profile untuk **CV GEBRINA JAYA**, penyedia layanan pro
 1. **Beranda (`/`)**:
    - Hero Section dengan CTA WhatsApp & Telepon langsung
    - Keunggulan Perusahaan (24/7 Respon Cepat, Selang 100m+, Garansi 100%)
-   - Preview Layanan Unggulan & Badge Kota Jabodetabek
+   - Preview Layanan Unggulan & Badge Coverage Jabodetabek
    - Testimoni Pelanggan dengan Star Rating
    - Statistik Perusahaan
 2. **Tentang Kami (`/tentang-kami`)**:
@@ -34,17 +33,13 @@ Website official company profile untuk **CV GEBRINA JAYA**, penyedia layanan pro
    - Pembuatan & Perbaikan Septic Tank Bio-Filter Baru
    - Sedot Limbah Industri & Restoran (Grease Trap)
 4. **Wilayah Layanan (`/wilayah-layanan`)**:
-   - Daftar area Jabodetabek dikelompokkan per Kota & Kecamatan
+   - Jangkauan wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi)
    - Embed Google Maps lokasi kantor & area operasional
 5. **Galeri (`/galeri`)**:
    - Grid dokumentasi foto armada & hasil kerja
    - Filter Kategori Tabs
    - Lightbox Modal Popup interaktif menggunakan Alpine.js
-6. **Form Kontak (`/kontak`)**:
-   - Input validasi server-side lengkap dalam Bahasa Indonesia
-   - Menyimpan pesan ke database MySQL (`contact_messages`)
-   - Mengirim notifikasi email otomatis ke admin
-7. **Floating WhatsApp Component**:
+6. **Floating WhatsApp Component**:
    - Tombol melayang sticky kanan bawah di semua halaman dengan pesan pre-filled kontekstual
 
 ---
@@ -114,38 +109,25 @@ CP/
 │   │   ├── HomeController.php
 │   │   ├── ServiceController.php
 │   │   ├── PageController.php
-│   │   ├── ContactController.php
 │   │   ├── SitemapController.php
 │   │   └── RobotsController.php
-│   ├── Mail/
-│   │   └── ContactMessageMail.php
 │   └── Models/
 │       ├── Service.php
 │       ├── ServiceArea.php
 │       ├── GalleryItem.php
-│       ├── Testimonial.php
-│       └── ContactMessage.php
+│       └── Testimonial.php
 ├── config/
 │   └── company.php              # Centralized Company Profile Config
 ├── database/
 │   ├── migrations/              # Database Schema Migrations
-│   └── seeders/                 # Static Content Seeders
-├── public/
-│   └── images/                  # Static Image Assets (Hero, Services, Gallery)
+│   └── seeders/                 # Application Data Seeders
 ├── resources/
-│   ├── css/app.css              # Custom Tailwind CSS Styles
-│   ├── js/app.js                # Alpine.js Bundle
 │   └── views/
-│       ├── components/          # Reusable Navbar, Footer, Floating WA
-│       ├── emails/              # HTML Email Template
-│       ├── layouts/             # Master App Layout with SEO Meta Tags
-│       └── pages/               # Page Blade Views
-└── routes/
-    └── web.php                  # Application Web Routes
+│       ├── components/          # Navbar, Footer, Floating WA
+│       ├── layouts/             # Base Layout (app.blade.php)
+│       └── pages/               # Views for pages
+├── routes/
+│   └── web.php                  # Web Route Definitions
+└── public/
+    └── images/                  # Product, Service & Gallery Images
 ```
-
----
-
-## 🌐 Lisensi & Hak Cipta
-
-Diproduksi khusus untuk **CV GEBRINA JAYA** - Jasa Sedot WC & Septic Tank Jabodetabek 24 Jam.

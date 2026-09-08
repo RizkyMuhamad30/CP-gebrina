@@ -13,7 +13,7 @@
                     <span class="text-xl font-extrabold text-white tracking-tight">CV GEBRINA JAYA</span>
                 </div>
                 <p class="text-sm text-slate-400 leading-relaxed">
-                    Spesialis penyedia jasa sedot WC, pengurasan septic tank, pelancaran saluran mampet, dan penyedotan limbah cair industri di wilayah Jabodetabek. Siap bertugas 24 Jam Nonstop dengan harga terjangkau dan bergaransi.
+                    Spesialis penyedia jasa sedot WC, pengurasan septic tank, pelancaran saluran mampet, dan penyedotan limbah cair industri di wilayah Jabodetabek. Siap bertugas 24 Jam Nonstop dengan cepat, bersih, dan bergaransi.
                 </p>
                 <div class="pt-2 flex items-center space-x-3">
                     <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-950 text-emerald-400 border border-emerald-800">
@@ -29,10 +29,9 @@
                 <ul class="space-y-2.5 text-sm">
                     <li><a href="{{ route('home') }}" class="hover:text-amber-400 transition-colors">Beranda Utama</a></li>
                     <li><a href="{{ route('about') }}" class="hover:text-amber-400 transition-colors">Profil CV GEBRINA JAYA</a></li>
-                    <li><a href="{{ route('services.index') }}" class="hover:text-amber-400 transition-colors">Daftar Layanan & Tariff</a></li>
+                    <li><a href="{{ route('services.index') }}" class="hover:text-amber-400 transition-colors">Daftar Layanan Kami</a></li>
                     <li><a href="{{ route('areas') }}" class="hover:text-amber-400 transition-colors">Jangkauan Wilayah Jabodetabek</a></li>
                     <li><a href="{{ route('gallery') }}" class="hover:text-amber-400 transition-colors">Galeri Hasil Kerja & Armada</a></li>
-                    <li><a href="{{ route('contact') }}" class="hover:text-amber-400 transition-colors">Hubungi Layanan Darurat</a></li>
                 </ul>
             </div>
 

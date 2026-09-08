@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\RobotsController;
@@ -16,9 +15,6 @@ Route::get('/layanan/{service:slug}', [ServiceController::class, 'show'])->name(
 
 Route::get('/wilayah-layanan', [PageController::class, 'areas'])->name('areas');
 Route::get('/galeri', [PageController::class, 'gallery'])->name('gallery');
-
-Route::get('/kontak', [ContactController::class, 'index'])->name('contact');
-Route::post('/kontak', [ContactController::class, 'store'])->name('contact.store');
 
 Route::get('/sitemap.xml', SitemapController::class)->name('sitemap');
 Route::get('/robots.txt', RobotsController::class)->name('robots');

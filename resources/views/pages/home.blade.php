@@ -12,7 +12,6 @@
   "@id": "{{ url('/') }}",
   "url": "{{ url('/') }}",
   "telephone": "{{ config('company.contact.phone_raw') }}",
-  "priceRange": "Rp 300.000 - Rp 1.500.000",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Jl. Raya Bogor KM 26 No. 88, Ciracas",
@@ -182,9 +181,6 @@
                 <div class="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-200 flex flex-col hover:shadow-2xl transition-all duration-300 group">
                     <div class="relative h-48 overflow-hidden">
                         <img src="{{ asset($service->image_path ?? 'images/services/service-sedot-wc.jpg') }}" alt="{{ $service->name }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute top-3 right-3 bg-slate-900/80 backdrop-blur-md text-amber-400 text-xs font-extrabold px-3 py-1 rounded-full border border-slate-700">
-                            {{ $service->price_info }}
-                        </div>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between space-y-4">
                         <div>
@@ -235,7 +231,7 @@
 
         <div class="mt-8 text-center">
             <a href="{{ route('areas') }}" class="inline-flex items-center space-x-2 text-sm font-bold text-amber-400 hover:text-amber-300">
-                <span>Lihat Seluruh Kecamatan Jabodetabek yang Dilayani</span>
+                <span>Lihat Coverage Wilayah Layanan Jabodetabek</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>
         </div>
@@ -297,7 +293,7 @@
     <div class="max-w-5xl mx-auto px-4 text-center space-y-6 relative z-10">
         <h2 class="text-3xl sm:text-5xl font-extrabold tracking-tight">WC Mampet Atau Septic Tank Penuh Hari Ini?</h2>
         <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto">
-            Jangan tunggu sampai meluap dan merusak kenyamanan tempat tinggal Anda. Hubungi kami sekarang dan tim kami siap meluncur dengan harga transparan.
+            Jangan tunggu sampai meluap dan merusak kenyamanan tempat tinggal Anda. Hubungi kami sekarang dan tim kami siap meluncur dengan cepat dan bergaransi.
         </p>
         <div class="pt-4 flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <a href="https://wa.me/{{ config('company.contact.whatsapp_number') }}?text={{ urlencode('Halo CV GEBRINA JAYA, saya butuh penanganan darurat sedot WC sekarang.') }}" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-base shadow-xl flex items-center justify-center space-x-3">

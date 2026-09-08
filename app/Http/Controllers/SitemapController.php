@@ -17,7 +17,6 @@ class SitemapController extends Controller
             ['loc' => route('services.index'), 'lastmod' => now()->toAtomString(), 'changefreq' => 'weekly', 'priority' => '0.9'],
             ['loc' => route('areas'), 'lastmod' => now()->toAtomString(), 'changefreq' => 'weekly', 'priority' => '0.9'],
             ['loc' => route('gallery'), 'lastmod' => now()->toAtomString(), 'changefreq' => 'weekly', 'priority' => '0.7'],
-            ['loc' => route('contact'), 'lastmod' => now()->toAtomString(), 'changefreq' => 'monthly', 'priority' => '0.8'],
         ];
 
         foreach ($services as $service) {

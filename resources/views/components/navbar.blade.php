@@ -35,9 +35,6 @@
                 <a href="{{ route('about') }}" class="px-3 py-2 rounded-lg transition-colors {{ request()->routeIs('about') ? 'bg-blue-600 text-white font-semibold' : 'text-slate-300 hover:text-white hover:bg-slate-800' }}">
                     Tentang Kami
                 </a>
-                <a href="{{ route('contact') }}" class="px-3 py-2 rounded-lg transition-colors {{ request()->routeIs('contact') ? 'bg-blue-600 text-white font-semibold' : 'text-slate-300 hover:text-white hover:bg-slate-800' }}">
-                    Kontak
-                </a>
             </nav>
 
             <!-- Right CTA Phone & WhatsApp Button -->
@@ -83,9 +80,6 @@
         </a>
         <a href="{{ route('about') }}" class="block px-4 py-3 rounded-lg text-base font-semibold {{ request()->routeIs('about') ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-800' }}">
             Tentang Perusahaan
-        </a>
-        <a href="{{ route('contact') }}" class="block px-4 py-3 rounded-lg text-base font-semibold {{ request()->routeIs('contact') ? 'bg-blue-600 text-white' : 'text-slate-300 hover:bg-slate-800' }}">
-            Hubungi Kami
         </a>
         <div class="pt-4 border-t border-slate-800 space-y-2">
             <a href="tel:{{ config('company.contact.phone_raw') }}" class="flex items-center justify-center space-x-2 w-full py-3 bg-slate-800 rounded-xl text-white font-semibold">

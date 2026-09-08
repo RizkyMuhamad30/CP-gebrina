@@ -8,10 +8,10 @@
 <!-- PAGE HEADER -->
 <section class="bg-slate-900 text-white py-16 border-b border-slate-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-        <span class="text-xs font-extrabold text-amber-400 uppercase tracking-widest">Layanan & Garansi Tarif</span>
+        <span class="text-xs font-extrabold text-amber-400 uppercase tracking-widest">Layanan & Garansi Hasil</span>
         <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">Daftar Layanan CV GEBRINA JAYA</h1>
         <p class="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base">
-            Kami menyediakan solusi sanitasi komprehensif dengan peralatan teknologi vakum modern dan estimasi biaya transparan.
+            Kami menyediakan solusi sanitasi komprehensif dengan peralatan teknologi vakum modern dan garansi pengerjaan tuntas.
         </p>
     </div>
 </section>
@@ -25,9 +25,6 @@
                     <div>
                         <div class="relative h-52 overflow-hidden">
                             <img src="{{ asset($service->image_path ?? 'images/services/service-sedot-wc.jpg') }}" alt="{{ $service->name }}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                            <div class="absolute top-3 right-3 bg-slate-900/90 text-amber-400 font-extrabold text-xs px-3 py-1 rounded-full border border-slate-700">
-                                {{ $service->price_info }}
-                            </div>
                         </div>
 
                         <div class="p-6 space-y-4">

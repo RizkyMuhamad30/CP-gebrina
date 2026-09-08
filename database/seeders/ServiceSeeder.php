@@ -22,7 +22,6 @@ class ServiceSeeder extends Seeder
 Kami menjamin proses kerja yang higienis, bersih, tanpa bau menyengat yang tertinggal, serta tanpa perlu membongkar struktur fisik rumah Anda secara berlebihan.',
                 'icon' => 'home',
                 'image_path' => 'images/services/service-sedot-wc.jpg',
-                'price_info' => 'Mulai dari Rp 350.000 / Strip',
                 'features' => [
                     'Selang ekstra panjang hingga 100+ meter',
                     'Proses sedot cepat & tanpa bau menyengat',
@@ -40,7 +39,6 @@ Kami menjamin proses kerja yang higienis, bersih, tanpa bau menyengat yang terti
 Tim CV GEBRINA JAYA dibekali APD lengkap dan standar K3 lingkungan yang ketat untuk menjamin keamanan area kerja komersial Anda.',
                 'icon' => 'building-office',
                 'image_path' => 'images/services/service-kantor.jpg',
-                'price_info' => 'Estimasi / Sesuai Kapasitas Tangki',
                 'features' => [
                     'Melayani pengerjaan malam / luar jam kerja',
                     'Armada kapasitas tangki besar (4000-6000 Liter)',
@@ -58,7 +56,6 @@ Tim CV GEBRINA JAYA dibekali APD lengkap dan standar K3 lingkungan yang ketat un
 Proses pengerjaan cepat (30-60 menit) dan saluran langsung lancar seperti baru kembali.',
                 'icon' => 'wrench-screwdriver',
                 'image_path' => 'images/services/service-saluran-mampet.jpg',
-                'price_info' => 'Mulai dari Rp 300.000 / Titik',
                 'features' => [
                     'Teknologi Spiral Roto-Rooter modern',
                     'Tanpa bongkar lantai & keramik',
@@ -76,7 +73,6 @@ Proses pengerjaan cepat (30-60 menit) dan saluran langsung lancar seperti baru k
 Kami juga melayani renovasi septic tank lama, pembuatan resapan baru, serta pemasangan pipa ventilasi udara anti-meledak.',
                 'icon' => 'cog-6-teeth',
                 'image_path' => 'images/services/service-septic-tank.jpg',
-                'price_info' => 'Konsultasi & Survei Gratis',
                 'features' => [
                     'Standar konstruksi SNI & ramah lingkungan',
                     'Sistem bio-filter pencegah bau & cepat rembes',
@@ -94,7 +90,6 @@ Kami juga melayani renovasi septic tank lama, pembuatan resapan baru, serta pema
 Seluruh limbah yang diangkut akan dibuang ke Tempat Pembuangan Limbah Resmi (IPLT) yang terdaftar pada Dinas Lingkungan Hidup.',
                 'icon' => 'beaker',
                 'image_path' => 'images/services/service-limbah.jpg',
-                'price_info' => 'Kontrak Rutin / Per Truk Tangki',
                 'features' => [
                     'Pembersihan total jebakan lemak (grease trap)',
                     'Disposal ke IPLT resmi Pemda',
